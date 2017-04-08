@@ -5,39 +5,89 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewpoint" content="width=device-width, initial-scale=1">
    <meta name = "description"  content = "Asian Inspired Street Food">
+   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+
    <link rel="stylesheet" href="css/stylesheet.css">
+   <script src="js/bootstrap.min.js"></script>
+
+
 
    <title>Bao Bar | Asian Street food</title>
 <body>
 
-<header>
-  <div>
-    <div id="leadHead"><img id="trademark" src="images/Logo.jpeg">  </div>
-   </div>
-  <div> <p>Booking 03 343 5588 </p>
-        <a href="#">Click here to make a booking</a>
+<div class="">
+
+<header class="container row align-items-center text-center justify-content-around">
+
+    <div class="col-sm-6">
+      <img id="trademark" src="images/Logo.jpeg">
+
   </div>
-</header>
+
+  <div class="col-sm-6">
+    <div id="booking" >
+     <p class="btn">Bookings 03 343 5588 </p>
+    </div>
+        <a href="#" class="btn btn-outline-success">
+          <div id="booking-button"> Click here to make a booking</div>
+        </a>
+  </div>
 
 
-<nav class="navigationbar">
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Baolicious</a></li>
-        <li><a href="#">Contact&amp;Booking</a></li>
-    </ul>
+</header> <!-- row -->
+
+
+
+<nav class="container navbar navbar-toggleable-sm bg-success navbar-inverse"  >
+  <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse"
+  data-target="#myNav" aria-controls="myNav" aria-expended="false" aria-label="Toggle Navigation" type="button">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <a href="#" class="navbar-brand">Bao Bar</a>
+
+  <div class="collapse navbar-collapse" id="myNav">
+    <div class="navbar-nav">
+      <a href="#" class="nav-item nav-link  active">Home</a>
+      <a href="#" class="nav-item nav-link">Menu</a>
+      <a href="#" class="nav-item nav-link">Gallery</a>
+      <a href="#" class="nav-item nav-link">Baolicious</a>
+      <a href="#" class="nav-item nav-link">Contact&amp;Booking</a>
+
+    </div> <!--  navbar-nav -->
+  </div>  <!-- collapse -->
+
 </nav>
 
-<main>
-<img src="images/BaoBar_01.jpg">
+<div class="progress">
+  <div class="progress-bar bg-danger" style="width:20%;"></div>
+  <div class="progress-bar bg-info" style="width:20%"></div>
+  <div class="progress-bar bg-warning" style="width:20%"></div>
+  <div class="progress-bar bg-info" style="width:20%"></div>
+  <div class="progress-bar bg-danger" style="width:20%"></div>
+</div>
+
+<main class="container">
+<img src="images/collage.jpg" class="img-fluid">
 
 
 </main>
+<div class="progress">
+  <div class="progress-bar bg-danger" style="width:20%;"></div>
+  <div class="progress-bar bg-info" style="width:20%"></div>
+  <div class="progress-bar bg-warning" style="width:20%"></div>
+  <div class="progress-bar bg-info" style="width:20%"></div>
+  <div class="progress-bar bg-danger" style="width:20%"></div>
+</div>
+<footer class="container"><p>&copy; Bao Bar, 2017</p></footer>
+</div>  <!-- container -->
 
-<footer><p>&copy; Bao Bar, 2017</p></footer>
 
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
 
 </body>
 </html>

@@ -1,6 +1,6 @@
 /*-------------- RESET --------------- */
 
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, a, article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+/*html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, a, article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
     margin: 0;
     padding: 0;
     border: 0;
@@ -14,22 +14,29 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, f
 
 main {
     display: block;
-}
+}*/
+
 
 
 /* ------------- LAYOUT -------------*/
 body {
-    width: 60em;
-    margin: 0 auto;
-    background: ;
+
+    /*margin: 0 auto;*/
+    background: #fdfdfd;
 }
 
-header{
+/*header{
     display: flex;
     justify-content: space-around;
+}*/
+
+.progress {
+    border-radius: 0px;
 }
 
-
+.progress-bar {
+    /*background: #000;*/
+}
 
 
 /*-------------- TYPOGRAPHY --------------*/
@@ -39,19 +46,23 @@ h1 {
 }
 
 
+
 /*--------- COLOUR SCHEME & BORDERS -------- */
 
-body{
+body {
 
 font-family: Arial, Helvetica, sans-serif;
 }
 
+#booking {
+    background-image: url();
+}
 
 
 
 /* ------  NAVIGATION ---------*/
 
-nav ul {
+/*nav ul {
     display: flex;
     justify-content: space-between;
 }
@@ -60,23 +71,41 @@ nav ul {
     list-style-type: none;
 }
 
-nav a {
+a {
     text-decoration: none;
-    color: #333;
-    ;
-
+    color: #000;
 }
 
-nav{
-    background: #ddd;
 
-    border-radius: 10px;
+
+nav{
+    background: #eee;
 }
 
 nav li {
-    padding: 0.5em 2.2em;;
+    border-right: 1px solid #fefefe;
 }
 
+
+nav a{
+    display:inline-block;
+    padding:10px;
+}*/
+
+/*#booking {
+    background: #ccc;
+    width: 15em;
+    height: 3em;
+    padding: 1em 0.5em;
+}
+
+#booking-button {
+    background: #eee;
+    width: 15em;
+    height: 3em;
+    border-radius: 0.5em;
+    padding: 1em 0.5em;
+}*/
 
 
 /* --------  IMAGES ------- */
@@ -87,6 +116,7 @@ img {
 
 #trademark {
     width: 8em;
+    height: 8em;
 }
 
 
