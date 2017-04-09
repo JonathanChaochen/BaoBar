@@ -38,6 +38,12 @@ body {
     /*background: #000;*/
 }
 
+      #map {
+        height: 400px;
+        width: 50%;
+       }
+
+
 
 /*-------------- TYPOGRAPHY --------------*/
 
@@ -54,13 +60,37 @@ body {
 font-family: Arial, Helvetica, sans-serif;
 }
 
-#booking {
-    background-image: url();
-}
 
 
 
 /* ------  NAVIGATION ---------*/
+a {
+
+}
+
+.navbar a{
+    border: 1px solid right;
+    display: inline-block;
+
+}
+
+
+
+
+.navbar {
+    background: #eee;
+    border-radius: 0.75em;
+    margin: 1em 0;
+}
+
+.navbar-nav{
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+
 
 /*nav ul {
     display: flex;
@@ -79,7 +109,7 @@ a {
 
 
 nav{
-    background: #eee;
+    ;
 }
 
 nav li {
@@ -114,9 +144,12 @@ img {
     width: 100%;
 }
 
+#featured .carousel-item img{
+    height: 100%;
+}
 #trademark {
-    width: 8em;
-    height: 8em;
+    width: 7em;
+    height: 7em;
 }
 
 
