@@ -74,26 +74,31 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-
-
-
 /* ------  NAVIGATION ---------*/
 a {
 
 }
 
-.navbar a{
-    border: 1px solid right;
-    display: inline-block;
+/*.navbar-nav {
+    display: flex;
+    justify-content: center;
+}*/
+
+#navlink a{
+    font-weight: bold;
+
+        /*background-color: yellow;*/
 
 }
 
 
+#navlink a:hover {
+    color: #222;
+}
+
 .navbar {
     background: #eee;
-    border-radius: 0.75em;
+    border-radius: 1em;
     margin: 0.5em 0;
 }
 
@@ -173,7 +178,6 @@ img {
 
 
 /*-------------------- MEDIA QUERIES ------------------*/
-
 
 
 
