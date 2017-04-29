@@ -1,0 +1,32 @@
+#trademark {
+    width: 7em;
+    height: 7em;
+}
+#navlink a{
+    font-weight: bold;
+
+        /*background-color: yellow;*/
+
+}
+
+
+#navlink a:hover {
+    color: #222;
+}
+
+.navbar {
+    background: #eee;
+    border-radius: 1em;
+    margin: 0.5em 0;
+}
+
+.progress {
+    border-radius: 0px;
+}
+
+.address-bar {
+    margin-bottom: 15px;
+}
+.carousel {
+    margin-bottom: 15px;
+}
