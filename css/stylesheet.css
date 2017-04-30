@@ -58,6 +58,7 @@ figcaption {
 /*-------------- TYPOGRAPHY --------------*/
 
 h4 {
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     color: #d9534f;
     font-weight: bold;
@@ -68,8 +69,11 @@ h4 {
 
 }
 
-
-
+h3 {
+/*    font-family: 'Itim', cursive;
+    font-family: 'Roboto', sans-serif;*/
+    font-family: 'Oswald', sans-serif;
+}
 
 /*--------- COLOUR SCHEME & BORDERS -------- */
 
@@ -85,6 +89,7 @@ a {
 
 #baolicious_section {
         background: #f2f2f2;
+        font-family: 'Itim', cursive;
 }
 
 /*.navbar-nav {
@@ -92,16 +97,18 @@ a {
     justify-content: center;
 }*/
 
-#navlink a{
+.navbar a{
+    color:rgba(0,0,0,.5)!important;
     font-weight: bold;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 1.2em;
 
         /*background-color: yellow;*/
-
 }
 
 
-#navlink a:hover {
-    color: #222;
+.navbar a:hover {
+    color: #222!important;
 }
 
 .navbar {
